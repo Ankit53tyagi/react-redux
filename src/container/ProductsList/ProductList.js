@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card';
+import { Container, Row, Col,Card } from 'react-bootstrap'
 import { useSelector, useDispatch } from 'react-redux'
 import axios from 'axios';
 import { selectedProducts } from '../../redux/actions/productsActions';

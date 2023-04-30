@@ -10,10 +10,10 @@ function App() {
     <>
       <Header />
       <Suspense fallback={<div className='d-flex justify-content-center align-items-center' style={{width:'100%',height:'80vh'}}><h5>Loading...</h5></div>}>
-      <Routes>
-        <Route path='/' element={<ProductList/>}></Route>
-        <Route path='/product/:id' element={<ProductDetails/>} />
-      </Routes>
+        <Routes>
+          <Route path='/' element={<ProductList/>}></Route>
+          <Route path='/product/:id' element={<ProductDetails/>} />
+        </Routes>
       </Suspense>
     </>
   );
