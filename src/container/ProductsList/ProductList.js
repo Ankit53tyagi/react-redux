@@ -7,7 +7,7 @@ import { selectedProducts } from '../../redux/actions/productsActions';
 import { Link } from 'react-router-dom';
 import { ProductCard } from './ProductCard';
 
-export const ProductList = () => {
+const ProductList = () => {
 
 
     const product = useSelector(state => state.AllProducts.products);
@@ -47,3 +47,5 @@ export const ProductList = () => {
         </Container>
     )
 }
+
+export default ProductList;
