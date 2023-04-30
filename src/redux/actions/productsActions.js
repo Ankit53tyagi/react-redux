@@ -1,4 +1,4 @@
-import { GET_ALL_PRODUCTS, GET_SINGLE_PRODUCTS } from "../constant/types"
+import { GET_ALL_PRODUCTS, GET_SINGLE_PRODUCTS,DELETE_PRODUCTS } from "../constant/types"
 
 export const selectedProducts = (products) =>{
     return {
@@ -12,3 +12,10 @@ export const selectedProduct = (product) =>{
         payload:product
     }
 }
+
+export const removeSelectedProduct = () =>{
+    return {
+        type: DELETE_PRODUCTS
+    }
+}
+
