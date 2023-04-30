@@ -3,5 +3,5 @@ import {combineReducers} from 'redux'
 
 export const reducers = combineReducers({
     AllProducts : ProductReducer,
-    Product : SelectProductReducer
+    Product : SelectProductReducer,
 })
