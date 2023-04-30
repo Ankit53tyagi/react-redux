@@ -1,10 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import Card from 'react-bootstrap/Card';
 import { useSelector, useDispatch } from 'react-redux'
 import axios from 'axios';
 import { selectedProducts } from '../../redux/actions/productsActions';
-import { Link } from 'react-router-dom';
 import { ProductCard } from './ProductCard';
 
 const ProductList = () => {
