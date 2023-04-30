@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 import React,{lazy,Suspense } from 'react';
->>>>>>> f86c0e3da173a406d8ffb5a556d1932c294e2d6f
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import Header from './container/Header/Header';
