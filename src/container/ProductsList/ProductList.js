@@ -6,7 +6,7 @@ import axios from 'axios';
 import { selectedProducts } from '../../redux/actions/productsActions';
 import { ProductCard } from './ProductCard';
 
-export const ProductList = () => {
+const ProductList = () => {
 
 
     const product = useSelector(state => state.AllProducts.products);
@@ -46,3 +46,5 @@ export const ProductList = () => {
         </Container>
     )
 }
+
+export default ProductList;
